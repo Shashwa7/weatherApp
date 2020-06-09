@@ -1,10 +1,13 @@
 *{
   box-sizing: border-box;
+  padding: 0;
+  margin:0;
+
 }
-body{
-    background: #eeedec;
+html,body{
     letter-spacing: 0.2em;
     font-size: 0.8em;
+   width: 100vw;
   }
 body::before{
   content: '';
@@ -29,7 +32,17 @@ background-position: center;
   .icon{
     position: relative;
     top:-50px;
-    border-radius: 50%;
-    width: 100px;
-    box-shadow: 0px 1px 2px 1px;
+    margin-bottom: -60px;
+    border-radius: 100%;
+    width: 90px;
+    height: 90px;
+    box-shadow: 0px 1px 5px 1px;
   }
+
+  .icon img{
+    position: absolute;
+    transform: translateX(-50%);
+  }
+
+
+ 
